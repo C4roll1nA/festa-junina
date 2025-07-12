@@ -1,0 +1,94 @@
+     body {
+    font-family: 'Arial', sans-serif;
+    background: orangered; 
+    color: #5a3e1b;
+    margin: 0;
+    padding: 20px;
+  }
+
+  header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  #placa {
+    display: block;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  .linha {
+    display: flex;
+  }
+
+  #gif1 {
+    width: 250px;
+    height: 100%;
+    margin-right: 20%;
+    
+  }
+    
+  #maca1 {
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .section {
+    background: #dfddd5;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+  }
+
+  .section img {
+    width: 290px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+    gap: 10px;
+    border: 2px;
+  }
+
+  .comidas-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .comida-item {
+    background: blue;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    flex: 1 1 150px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+
+  .comida-item img {
+     display: block;
+     margin: 8px auto 0;
+     max-width: 100%;
+    border-radius: 8px;
+  }
+ 
+  .Músicas {
+    text-align: center;
+    font-size: 28px;
+    }
+    
