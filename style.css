@@ -1,6 +1,7 @@
+
      body {
     font-family: 'Arial', sans-serif;
-    background: orangered; 
+    background: #F7DC6F; 
     color: #5a3e1b;
     margin: 0;
     padding: 20px;
@@ -17,31 +18,48 @@
 
   }
 
+  .section h2 {
+    text-align: center;
+  }
+
+  .section p {
+    text-align: center;
+  }
   #placa {
     display: block;
-    width: 30%;
+    width: 40%;
     height: auto;
     border-radius: 10px;
     background-color: transparent;
+    margin-top: 200px;
   }
 
-  .linha {
+
+ 
+  
+
+
+  .arraiasj {
     display: flex;
+    justify-content: center;
+    gap: 10px;
   }
-
-  #gif1 {
-    width: 250px;
-    height: 100%;
-    margin-right: 20%;
-    
-  }
-    
-  #maca1 {
-    width: 120px;
+  
+  #img1 {
+    width: auto;
     height: auto;
-    margin-left: 10px;
   }
 
+  #img2 {
+    width: auto;
+    height: auto;
+
+    }
+
+    #img3 {
+      width: auto;
+      height: auto;
+    }
   .section {
     background: #dfddd5;
     border-radius: 15px;
@@ -70,7 +88,7 @@
   }
 
   .comida-item {
-    background: blue;
+    background: #F7DC6F; 
     color: white;
     border-radius: 12px;
     padding: 10px 20px;
@@ -92,3 +110,28 @@
     font-size: 28px;
     }
     
+    .sjmacaubas {
+      background-color: #dfddd5;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      align-items: center;
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .texto h1 {
+      text-align: center;
+    }
+
+    .texto h2 {
+      text-align: center;
+    }
+
+    .imagens img {
+      width: 220px;
+      height: auto;
+      border-radius: 8px;
+      vertical-align: middle;
+      margin-left: 20px;
+
+    }
