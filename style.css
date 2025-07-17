@@ -105,7 +105,7 @@
     border-radius: 8px;
   }
  
-  .Músicas {
+  #musica h1 {
     text-align: center;
     font-size: 28px;
     }
@@ -132,6 +132,10 @@
       height: auto;
       border-radius: 8px;
       vertical-align: middle;
-      margin-left: 20px;
+      margin-left: 2px;
+      padding-left: 2px;
+      
 
     }
+
+  
