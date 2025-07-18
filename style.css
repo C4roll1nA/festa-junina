@@ -24,6 +24,11 @@
 
   .section p {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: auto;
+
   }
   #placa {
     display: block;
@@ -33,11 +38,6 @@
     background-color: transparent;
     margin-top: 200px;
   }
-
-
- 
-  
-
 
   .arraiasj {
     display: flex;
@@ -127,15 +127,72 @@
       text-align: center;
     }
 
+    .texto p {
+      padding-left: 10%;
+      vertical-align: middle;
+    }
+  
     .imagens img {
-      width: 220px;
+      width: 180px;
       height: auto;
       border-radius: 8px;
       vertical-align: middle;
       margin-left: 2px;
       padding-left: 2px;
-      
 
     }
 
+.tradicaosj h1 {
+  text-align: center;
+}
+
+.tradicaosj p {
+  font-family: Arial, Helvetica, sans-serif;
   
+}
+
+.audios h1 {
+  text-align: center;
+}
+
+.audios p {
+  font-size: 20px;
+}
+
+.img-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+  
+
+}
+
+.tradicaosj p {
+  margin-bottom: 20px;
+}
+
+.img-item {
+  background: #D84315;
+  color: white;
+  border-radius: 12px;
+  padding: 5px;
+  flex: 0 0 180px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+  .img-item img {
+    max-width: 80%;
+    overflow: hidden;
+    display: block;
+    margin: 10px auto 0;
+    max-width: 100%;
+    border-radius: 10px;
+    
+
+
+
+  }
