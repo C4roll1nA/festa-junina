@@ -196,3 +196,33 @@
 
 
   }
+
+  .linhas {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .butoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+    
+  }
+
+  .botao {
+    height: auto;
+    font-size: 20px;
+    background-color: #D84315;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+
+    
+    
+  }
