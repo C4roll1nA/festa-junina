@@ -151,11 +151,11 @@
   
 }
 
-.audios h1 {
+.player h1 {
   text-align: center;
 }
 
-.audios p {
+.player p {
   font-size: 20px;
 }
 
@@ -223,6 +223,32 @@
     cursor: pointer;
     overflow: hidden;
 
-    
-    
   }
+
+  .player h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+  
+}
+
+  }
+
+  .titulomsc h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .player  img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
