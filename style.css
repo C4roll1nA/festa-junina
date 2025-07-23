@@ -2,66 +2,30 @@
      body {
     font-family: 'Arial', sans-serif;
     background: #F7DC6F; 
-    color: #5a3e1b;
     margin: 0;
     padding: 20px;
   }
 
   header {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   }
 
-
-  .caixa h2 {
-    text-align: center;
-  }
-
-  .caixa p {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    margin: auto;
-  }
-  #placa {
-    display: block;
-    width: 40%;
-    height: auto;
-    border-radius: 10px;
-    background-color: transparent;
-    margin-top: 50px;
-  }
-
-  .arraiasj {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
+  header img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+  display: block;
+}
   
-  #img1 {
-    width: auto;
-    height: auto;
-  }
 
-  #img2 {
-    width: auto;
-    height: auto;
-
-    }
-
-  #img3 {
-    width: auto;
-    height: auto;
-
-    }
-    .caixa {
+  .caixa {
     background: #dfddd5;
     border-radius: 15px;
     padding: 20px;
@@ -70,16 +34,36 @@
     
   }
 
-  .section img {
-    width: 290px;
-    height: auto;
-    border-radius: 12px;
-    margin-top: 15px;
-    flex-wrap: nowrap;
-    gap: 10px;
-    border: 2px;
+  .caixa h2 {
+    color: #5A3E1B;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+
   }
 
+   
+  .caixa p {
+    color: #5a3e1b;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: auto;
+  }
+
+
+  .arraiasj {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: auto;
+    height: auto;
+  }
+  
+  
   .comidas-list {
     display: flex;
     flex-wrap: wrap;
@@ -87,6 +71,15 @@
     justify-content: center;
     padding: 10px;
   }
+
+  .comidas-list h3 {
+    color: #FFF9C4;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    margin: 0;
+  }
+
 
   .comida-item {
     background: #F7DC6F; 
@@ -99,6 +92,7 @@
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   }
 
+
   .comida-item img {
      display: block;
      margin: 8px auto 0;
@@ -106,38 +100,6 @@
     border-radius: 8px;
   }
  
-  #musica h2 {
-    text-align: center;
-    font-size: 28px;
-    }
-    
-   
-
-    .texto1 h2 {
-     text-align: center;
-    }
-
-    
-    
-
-    .texto1 h2 {
-      text-align: center;
-    }
-
-    .texto1 p {
-      text-align: center;
-    }
-
-    .texto2 h2 {
-      text-align: center;
-    }
-  
-    .textoq p {
-      text-align: center;
-      font-size: 16px;
-    
-    }
-
    
     .imagens img {
       width: 180px;
@@ -147,8 +109,6 @@
       margin-left: 2px;
       padding-left: 2px;
       
-      
-
     }
 
     .imgq {
@@ -166,24 +126,9 @@
       margin-top: 5px;
     }
 
-.tradicaosj h2 {
-  text-align: center;
-}
 
-.tradicaosj p {
-  font-family: Arial, Helvetica, sans-serif;
-  
-}
 
-.player h2 {
-  text-align: center;
-}
-
-.player p {
-  font-size: 20px;
-}
-
-.img-list {
+  .img-list {
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
@@ -191,22 +136,29 @@
   padding: 10px;
   
 
-}
+  }
 
-.tradicaosj p {
-  margin-bottom: 20px;
-}
+  .img-list h3 {
+    color: #222222;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    margin: 0;
+  }
 
-.img-item {
-  background: #D84315;
-  color: white;
+  .img-list p {
+    color: #dfddd5;
+  }
+
+  .img-item {
+  background: orangered;
   border-radius: 12px;
   padding: 5px;
   flex: 0 0 180px;
   text-align: center;
   font-weight: bold;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
+  }
 
   .img-item img {
     max-width: 80%;
@@ -216,8 +168,6 @@
     max-width: 100%;
     border-radius: 10px;
    
-    
-
   }
 
   .linhas {
@@ -228,46 +178,18 @@
     justify-content: center;
 
   }
-  .butoes {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100px;
-    
-  }
 
-  .botao {
-    height: auto;
-    font-size: 20px;
-    background-color: #D84315;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    overflow: hidden;
-
-  }
-
-  .player h2 {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    color: #333333;
-  
-}
-
-
-  .titulomsc h2 {
-    text-align: center;
-    font-size: 16px;
-  }
-
-  .player  img {
+  #albimg {
     display: block;
     width: 200px;
     margin: 0 auto;
   }
+
+  #nmsc {
+    text-align: center;
+    font-size: 20px;
+  }
+
   .controls {
     display: flex;
     justify-content: center;
@@ -302,7 +224,6 @@
     text-align: center;
     font-size: 16px;
     font-style: bold;
-    color: black;
     margin: 0;
 
   }
