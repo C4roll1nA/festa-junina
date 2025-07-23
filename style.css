@@ -18,7 +18,8 @@
 
   }
 
-  .caixa h1 {
+
+  .caixa h2 {
     text-align: center;
   }
 
@@ -35,7 +36,7 @@
     height: auto;
     border-radius: 10px;
     background-color: transparent;
-    margin-top: 200px;
+    margin-top: 50px;
   }
 
   .arraiasj {
@@ -105,50 +106,39 @@
     border-radius: 8px;
   }
  
-  #musica h1 {
+  #musica h2 {
     text-align: center;
     font-size: 28px;
     }
     
    
 
-    .texto1 h1 {
-      text-align: center;
+    .texto1 h2 {
+     text-align: center;
     }
+
+    
+    
 
     .texto1 h2 {
       text-align: center;
     }
 
     .texto1 p {
-      padding-left: 10%;
-      vertical-align: middle;
+      text-align: center;
     }
 
-    .texto2 h1 {
+    .texto2 h2 {
       text-align: center;
     }
   
-    .textoq {
+    .textoq p {
       text-align: center;
       font-size: 16px;
+    
     }
 
-    .imgq {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-
-    }
-
-    .imgq img {
-      width: 100%;
-      max-width: 500px;
-      height: auto;
-      border-radius: 8px;
-
-    }
+   
     .imagens img {
       width: 180px;
       height: auto;
@@ -156,10 +146,27 @@
       vertical-align: middle;
       margin-left: 2px;
       padding-left: 2px;
+      
+      
 
     }
 
-.tradicaosj h1 {
+    .imgq {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    
+    }
+    
+    .imgq img {
+      width: 300px;
+      border-radius: 8px;
+      gap: 5px;
+      margin-top: 5px;
+    }
+
+.tradicaosj h2 {
   text-align: center;
 }
 
@@ -168,7 +175,7 @@
   
 }
 
-.player h1 {
+.player h2 {
   text-align: center;
 }
 
@@ -241,7 +248,7 @@
 
   }
 
-  .player h1 {
+  .player h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
@@ -268,9 +275,12 @@
   }
   
   .insta {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: column;  /* empilha verticalmente */
+  align-items: center;     /* centraliza horizontalmente */
+  gap: 15px;               /* espaço entre os elementos */
+  text-align: center;      /* centraliza textos dentro dos elementos */
+  padding: 20px;           /* um pouco de espaço interno */
   }
 
   .insta a {
@@ -278,7 +288,7 @@
     color: #000;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 3px;
 
   }
   
@@ -288,8 +298,30 @@
     height: 30px;
   }
 
-  .insta h1 {
+  .arroba {
     text-align: center;
     font-size: 16px;
+    font-style: bold;
     color: black;
+    margin: 0;
+
+  }
+  .by h2 {
+    color: black;
+    font-size: 20px;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  .nomes p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    color: black;
+    line-height: 1.5;
+  }
+
+  .page h2 {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 0px;
   }
