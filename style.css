@@ -37,7 +37,7 @@
   .caixa h2 {
     color: #5A3E1B;
     text-align: center;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'playfair display';
     font-style: normal;
     font-weight: 600;
 
@@ -48,7 +48,7 @@
     color: #5a3e1b;
     font-weight: 700;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'poppins' sans-serif;
     font-size: 16px;
     line-height: 1.8;
     margin: auto;
@@ -73,16 +73,24 @@
   }
 
   .comidas-list h3 {
-    color: #FFF9C4;
+    color: #222222;
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
     font-weight: 200;
     margin: 0;
   }
 
+  .comidas-list p {
+    color: #5C4033;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: auto;
+  }
 
   .comida-item {
-    background: #F7DC6F; 
+    background: #f1a93c; 
     color: white;
     border-radius: 12px;
     padding: 10px 20px;
@@ -96,7 +104,9 @@
   .comida-item img {
      display: block;
      margin: 8px auto 0;
-     max-width: 100%;
+     max-width: 90%;
+     height: auto;
+     object-fit: cover;
     border-radius: 8px;
   }
  
@@ -147,11 +157,16 @@
   }
 
   .img-list p {
-    color: #dfddd5;
+    color: #5C4033;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: auto;
   }
 
   .img-item {
-  background: orangered;
+  background: #f1a93c;
   border-radius: 12px;
   padding: 5px;
   flex: 0 0 180px;
